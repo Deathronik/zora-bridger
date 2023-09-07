@@ -4,8 +4,6 @@ import time
 from web3 import Web3
 import json
 
-# БРИДЖИТ ВЕСЬ БАЛАНС КОШЕЛЬКА
-
 with open('config.json') as f:
     config = json.load(f)
 with open('private_keys.txt', 'r') as keys_file:
